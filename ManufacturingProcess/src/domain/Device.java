@@ -6,8 +6,9 @@ public abstract class Device {
 	protected abstract void packaging();
 	protected abstract void storage();
 	
-	// Template method pattern - abstract methods are defined in sub-classes
-	// but called in abstract class and defines the general process or flow. 
+	// Template method pattern - abstract methods are implemented in sub-classes
+	// but called in a method in abstract class. 
+	// That defines the general process or flow. 
 	// Defines program skeleton (behaviour) in a method.
 	public void runProcess() {
 		assembly();
